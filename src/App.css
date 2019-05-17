@@ -23,6 +23,11 @@
   color: #61dafb;
 }
 
+.todo-item.completed .todo-title {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
